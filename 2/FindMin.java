@@ -26,7 +26,7 @@ public class FindMin {
                 }
             });
 
-            threads[threadId].run();
+            threads[threadId].start();
         }
         for (Thread item : threads)
         {
