@@ -5,7 +5,6 @@ public class FindMin {
     {
         Thread[] threads = new Thread[threadsCnt];
 
-        min = Integer.MAX_VALUE;
 
         Object block = new Object();
 
